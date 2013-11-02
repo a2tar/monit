@@ -11,5 +11,5 @@
 # Sample Usage:
 #
 class monit {
-
+  include monit::config
 }

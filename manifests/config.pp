@@ -10,7 +10,7 @@ class monit::config(
     ensure  => $ensure,
     owner   => 'root',
     group   => 'root',
-    mode    => 0644,
+    mode    => 0600,
     content => template("monit/monitrc.erb"),
     require => Class["monit::install"],
     notify  => Class["monit::service"],

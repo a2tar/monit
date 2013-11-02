@@ -1,4 +1,4 @@
-define monit::check::http(
+define monit::check::nodejs_app(
   $start_script   = "/etc/init.d/$name start",
   $stop_script    = "/etc/init.d/$name stop", 
   $port           = 8765,
