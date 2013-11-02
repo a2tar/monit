@@ -1,13 +1,18 @@
 {
-  "name": "hash-monit",
+  "name": "a2tar-monit",
   "version": "0.1.0",
-  "summary": "",
-  "author": "",
-  "description": "",
-  "dependencies": [],
+  "summary": "Monit on ubuntu puppet module.",
+  "author": "a2tar",
+  "description": "Monit on ubuntu puppet module.",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": "1.2.0"
+    }
+  ],
   "types": [],
   "checksums": {},
-  "source": "",
-  "project_page": "",
-  "license": ""
+  "source": "https://github.com/a2tar/monit.git",
+  "project_page": "https://github.com/a2tar/monit",
+  "license": "Apache License 2.0"
 }
