@@ -1,0 +1,5 @@
+check host <%= name %> with address <%= server_address %>
+	start program = "<%= start_script %>"
+	stop program  = "<%= stop_script %>"
+	if failed port <%= port %> protocol <%= protocol %> request <%= url %> then restart
+	if 5 restarts with 5 cycles then timeout
